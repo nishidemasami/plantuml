@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Convert PlantUML diagram text to SVG",
   "main": "lib/plantuml.js",
-  "license": "GPL",
+  "license": "MIT",
   "keywords": [
     "PlantUML",
     "UML",
