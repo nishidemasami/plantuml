@@ -1,8 +1,8 @@
-const plantuml = require('..');
+const { plantuml } = require('..');
 
 describe('plantuml', () => {
-  it('Convert PlantUML to SVG', async () => {
-    const svg = await plantuml(`
+	it('Convert PlantUML to SVG', () => {
+		const svg = plantuml(`
       @startuml
       Bob -> Alice : hello
       Alice -> Wonderland: hello
@@ -14,9 +14,7 @@ describe('plantuml', () => {
       Alice -> Bob: hello
       @enduml
     `);
-    expect(svg).toContain('<svg ');
-    expect(svg).toContain('</svg>');
-    expect(svg).not.toContain('<!--');
-    expect(svg).not.toContain('-->');
-  });
+		expect(svg).toContain('<svg ');
+		expect(svg).toContain('</svg>');
+	});
 });

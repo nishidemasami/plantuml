@@ -1,6 +1,6 @@
 {
   "name": "plantuml",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert PlantUML diagram text to SVG",
   "main": "lib/plantuml.js",
   "license": "MIT",
@@ -28,10 +28,6 @@
     "dev:exec": "clear && yarn test && yarn lint",
     "lint": "eslint lib spec .eslintrc.js",
     "test": "jasmine"
-  },
-  "dependencies": {
-    "execa": "^4.0.0",
-    "get-stream": "^6.0.1"
   },
   "devDependencies": {
     "eslint": "^8.35.0",

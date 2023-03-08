@@ -2,7 +2,7 @@
 
 Convert [PlantUML] diagram text to SVG.
 
-> Using PlantUML Version 1.2023.2
+> Using PlantUML MIT Version 1.2023.2
 
 ## Installation
 
@@ -12,7 +12,7 @@ $ npm install nishidemasami/plantuml
 
 ## Dependencies
 
-Requires java and graphviz to be installed on the system.
+Requires java to be installed on the system.
 
 ## Usage
 
